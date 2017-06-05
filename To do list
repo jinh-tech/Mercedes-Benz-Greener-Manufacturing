@@ -1,0 +1,5 @@
+#See datatype for different columns.
+#For int columns, see range of values
+For other cols , see types of values , can they be changed to ints
+#Remove useless cols
+Apply pca , ica
