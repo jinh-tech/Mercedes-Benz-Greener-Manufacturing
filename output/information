@@ -1,0 +1,8 @@
+simple1 -- all_features , tree_depth=5 , training_round = 500 ,train_error = 7.1626 ,result = 0.54686
+simple2 -- all_features , tree_depth=5 , training_round = 700 ,train_error = 6.9663 ,result = 0.54210
+simple3 -- all_features , tree_depth=5 , training_round = 1000 ,train_error = 6.637 ,result = 0.53512
+simple4 -- all_features , tree_depth=5 , training_round = 300 ,train_error = 7.3885 ,result = 0.55050
+simple5 -- all_features , tree_depth=5 , training_round = 200 ,train_error = 7.5832 ,result = 0.55231
+
+
+## Interpretation -- result seems to improve with decrease in training round. Maybe due to over fitting
