@@ -4,5 +4,17 @@ simple3 -- all_features , tree_depth=5 , training_round = 1000 ,train_error = 6.
 simple4 -- all_features , tree_depth=5 , training_round = 300 ,train_error = 7.3885 ,result = 0.55050
 simple5 -- all_features , tree_depth=5 , training_round = 200 ,train_error = 7.5832 ,result = 0.55231
 
+## Interpretation -- result improve with decrease in training round. Due to over fitting
 
-## Interpretation -- result seems to improve with decrease in training round. Maybe due to over fitting
+simple6 -- all_features , tree_depth=5 , training_round = 100 ,train_error = 8.0224 ,result = 0.54615
+simple7 -- all_features , tree_depth=5 , training_round = 150 ,train_error = 7.7572 ,result = 0.55319
+
+## Interpretation -- result starts to worsen if we go below 150 iterations
+
+simple8 -- all_features , tree_depth=4 , training_round = 100 ,train_error = 8.1699 ,result = 0.54596
+simple9 -- all_features , tree_depth=4 , training_round = 150 ,train_error = 7.9649 ,result = 0.55483
+simple10 -- all_features , tree_depth=4 , training_round = 200 ,train_error = 7.8133 ,result = 0.55458
+
+## Interpretation -- again best result at 150 iteration , better result achieved by decreasing tree depth 
+
+simple10 -- all_features , tree_depth=4 , training_round = 150,eval_metric = r^2 ,train_error = 0. ,result = 0.
