@@ -14,7 +14,17 @@ simple7 -- all_features , tree_depth=5 , training_round = 150 ,train_error = 7.7
 simple8 -- all_features , tree_depth=4 , training_round = 100 ,train_error = 8.1699 ,result = 0.54596
 simple9 -- all_features , tree_depth=4 , training_round = 150 ,train_error = 7.9649 ,result = 0.55483
 simple10 -- all_features , tree_depth=4 , training_round = 200 ,train_error = 7.8133 ,result = 0.55458
+simple11 -- all_features , tree_depth=4 , training_round = 150,eval_metric = r^2 ,train_error = 7.9649 ,result = 0.55483
 
 ## Interpretation -- again best result at 150 iteration , better result achieved by decreasing tree depth 
 
-simple10 -- all_features , tree_depth=4 , training_round = 150,eval_metric = r^2 ,train_error = 0. ,result = 0.
+simple12 -- all_features , tree_depth=3 , training_round = 200,train_error = 8.0249 ,result = 0.55573
+simple13 -- all_features , tree_depth=3 , training_round = 300,train_error = 7.9429 ,result = 0.55564
+simple14 -- all_features , tree_depth=3 , training_round = 150,train_error = 8.1208 ,result = 0.55407
+simple15 -- all_features , tree_depth=3 , training_round = 250,train_error = 7.9758 ,result = 
+
+
+
+
+-----------------------------------------------------------------
+nn1 -- all_features , [700,500,300,100] , training_round = 1000 ,train_error = 17.3351 ,result = 0.3069
