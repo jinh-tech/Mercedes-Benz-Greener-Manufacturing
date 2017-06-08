@@ -21,10 +21,18 @@ simple11 -- all_features , tree_depth=4 , training_round = 150,eval_metric = r^2
 simple12 -- all_features , tree_depth=3 , training_round = 200,train_error = 8.0249 ,result = 0.55573
 simple13 -- all_features , tree_depth=3 , training_round = 300,train_error = 7.9429 ,result = 0.55564
 simple14 -- all_features , tree_depth=3 , training_round = 150,train_error = 8.1208 ,result = 0.55407
-simple15 -- all_features , tree_depth=3 , training_round = 250,train_error = 7.9758 ,result = 
+simple15 -- all_features , tree_depth=3 , training_round = 250,train_error = 7.9758 ,result = 0.55596
+
+## Interpretation -- score impoves as depth of the tree is decreasing.
+
+reduced1 -- 10 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.7603, result = 0.5352
+reduced2 -- 20 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.5507, result = 0.5365
+
+
+added1 -- 20 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.5693, result = 0.5483
+added2 -- 10 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.6722, result = 0.5508
+added3 -- 30 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.5873, result = 
 
 
 
-
------------------------------------------------------------------
 nn1 -- all_features , [700,500,300,100] , training_round = 1000 ,train_error = 17.3351 ,result = 0.3069
