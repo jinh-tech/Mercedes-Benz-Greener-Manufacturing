@@ -31,7 +31,19 @@ reduced2 -- 20 features -- svd,ica,pca, tree depth = 3, training_round = 250 , t
 
 added1 -- 20 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.5693, result = 0.5483
 added2 -- 10 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.6722, result = 0.5508
-added3 -- 30 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = 7.5873, result = 
+added3 -- 30 features -- svd,ica,pca, tree depth = 3, training_round = 250 , train_error = , result = 
+added4 -- 10 features -- svd,ica,pca, tree depth = 4, training_round = 300 , train_error = 7.1070, result = 
+added5 -- 10 features -- svd,ica,pca, tree depth = 2, training_round = 300 , train_error = 8.0144, result = 0.5528
+added6 -- 10 features -- svd,ica,pca, tree depth = 2, training_round = 500 , train_error = 7.8548, result = 0.5546
+added7 -- 20 features -- svd,ica,pca, tree depth = 3, training_round = 500 , train_error = 7.2179, result = 0.5495
+
+dimred1 -- 20 features -- svd,ica,pca,grp,srp tree depth = 4, training_round = 1250 , train_error = 6.8, result = 0.53
+dimred2 -- 10 features -- svd,ica,pca,grp,srp tree depth = 4, training_round = 300 , train_error = 6.8, result = 0.56030
+dimred3 -- 10 features -- svd,ica,pca,grp,srp tree depth = 4, training_round = 250 , train_error = 7.0778, result = 0.56019
+dimred4 -- 10 features -- svd,ica,pca,grp,srp tree depth = 4, training_round = 200 , train_error = 7.2348, result = 0.55892
+dimred5 -- 10 features -- svd,ica,pca,grp,srp tree depth = 4, training_round = 350 , train_error = 6.8161, result = 0.55931
+
+
 
 
 
