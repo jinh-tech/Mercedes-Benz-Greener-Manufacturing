@@ -56,6 +56,22 @@ dimred13 -- 10 features -- svd,ica,pca,grp,srp tree depth = 3, training_round = 
 
 dimred13 -- 10 features -- svd,ica,pca,grp,srp tree depth = 2, training_round = 450 , train_error = 7.7204, result = 0.5580
 dimred14 -- 10 features -- svd,ica,pca,grp,srp tree depth = 2, training_round = 550 , train_error = 7.6174, result = 0.55946
+dimred15 -- 10 features -- svd,ica,pca,grp,srp tree depth = 2, training_round = 650 , train_error = 7.5313, result = 0.55894
+dimred16 -- 10 features -- svd,ica,pca,grp,srp tree depth = 2, training_round = 750 , train_error = 7.4580, result = 0.55864
+
+rfor1 --10 features -- svd,ica,pca,grp,srp , trees = 20, depth = 5 ,train_r^2 = 0.6421 , result = 0.55170
+rfor2 --10 features -- svd,ica,pca,grp,srp , trees = 30, depth = 5 ,train_r^2 = 0.6428 , result = 0.55230
+
+rfor3 --10 features -- svd,ica,pca,grp,srp , trees = 30, depth = 6 ,train_r^2 = 0.6641 , result = 0.54980
+
+
+nlin1 -- 10 features --  ...,lle,mod_lle,ltsa , tree depth = 3, training_round = 350 , train_error = 7.2221, result = 0.54223
+nlin2 -- 10 features --  ...,lle,mod_lle,ltsa , tree depth = 3, training_round = 450 , train_error = 7.0597, result = 0.54188
+nlin3 -- 10 features --  ...,lle,mod_lle,ltsa , tree depth = 3, training_round = 250 , train_error = 7.0597, result = 0.54336
+
+
+
+
 
 
 
